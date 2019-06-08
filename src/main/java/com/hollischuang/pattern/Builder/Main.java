@@ -14,5 +14,10 @@ public class Main {
         Role commonRole = commonBuilder.getResult();
         System.out.println(commonRole);
 
+        SuperRoleBuilder superRoleBuilder = new SuperRoleBuilder();
+        director.construct(superRoleBuilder);
+        Role result = superRoleBuilder.getResult();
+        System.out.println(result);
+        System.out.println("result:"+result+",commonRole:"+commonRole);
     }
 }

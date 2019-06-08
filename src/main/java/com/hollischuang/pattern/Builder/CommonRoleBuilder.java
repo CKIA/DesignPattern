@@ -5,7 +5,7 @@ package com.hollischuang.pattern.Builder;
  */
 public class CommonRoleBuilder extends Builder {
 
-    private Role role = new Role();
+//    private Role role = new Role();
 
     @Override
     public void buildHead() {
